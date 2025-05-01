@@ -17,7 +17,7 @@ services:
         target: /opt/nim/.cache/
     environment:
       - NIM_MODEL_PROFILE=193649a2eb95e821309d6023a2cabb31489d3b690a9973c7ab5d1ff58b0aa7eb
-      - NGC_API_KEY=${NVIDIA_API_KEY:?Error NVIDIA_API_KEY not set}
+      - NGC_API_KEY=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
     networks:
       - app-network
     profiles:
