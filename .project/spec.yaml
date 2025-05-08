@@ -113,7 +113,7 @@ execution:
     resources:
         gpu:
             requested: 1
-        sharedMemoryMB: 0
+        sharedMemoryMB: 102400
     secrets:
         - variable: ELEVENLABS_API_KEY
           description: ""
