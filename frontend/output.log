@@ -1,3 +1,20 @@
-Running on local URL:  http://0.0.0.0:7860
+* Running on local URL:  http://0.0.0.0:7860
+* To create a public link, set `share=True` in `launch()`.
 
-To create a public link, set `share=True` in `launch()`.
+[14:39:04] Submitting PDFs for processing...
+Using voices: {'speaker-1': 'iP95p4xoKVk53GoZ742B', 'speaker-2': '9BWtsMINqrJLrRacOk9x'}
+Error during PDF submission: HTTPConnectionPool(host='pdf-to-podcast-api-service-1', port=8002): Max retries exceeded with url: /process_pdf (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fb9b0132800>: Failed to resolve 'pdf-to-podcast-api-service-1' ([Errno -2] Name or service not known)"))
+
+[14:48:50] Submitting PDFs for processing...
+Using voices: {'speaker-1': 'iP95p4xoKVk53GoZ742B', 'speaker-2': '9BWtsMINqrJLrRacOk9x'}
+[14:48:50] Job ID received: e243322b-18ed-46eb-8cdc-f37ea9723be0
+[14:48:50] Connected to status WebSocket
+[14:48:50] Sent ready acknowledgment
+[14:48:51] pdf: pending - Job created
+[14:48:51] pdf: processing - Processing 1 PDFs
+[14:52:50] pdf: completed - All PDFs processed successfully
+[14:52:50] agent: pending - Job created
+[14:52:50] agent: processing - Initializing processing
+[14:52:50] agent: processing - Summarizing 1 PDFs
+[14:53:09] agent: failed - Failed to get response after 5 attempts
+[14:53:09] Job failed in agent: Failed to get response after 5 attempts
